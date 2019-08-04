@@ -45,6 +45,7 @@ while True:
     if repeat.upper() == "N":
         continue
     else:
+        sys.exit()
         break
 
 
