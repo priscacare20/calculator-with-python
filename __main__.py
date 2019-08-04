@@ -46,7 +46,7 @@ while True:
         continue
     else:
         sys.exit()
-        break
+        #break
 
 
 
