@@ -2,7 +2,6 @@
 # these code may otherwise be written on the calculator\_init_.py because it initializes the module and is the first file to be executed when there is no main
 import sys
 print("running from main")
-
 from calculator.calOperation.dataframe_cal import DataOperation
 from calculator.calOperation.equation_cal import EquOperation
 from calculator.calOperation.matrices_cal import MatricOperation
@@ -33,7 +32,8 @@ while True:
     if operation_type == 'dataframe':
         data.execute()
     elif operation_type == 'equation':
-        equate.execute()
+        equate()  # calling an instance of EquOperation, this is possible because of the call function in the class
+        print(equate.execute())
     elif operation_type == 'matrices':
         matrices.execute()
     elif operation_type == 'arithmetic':
