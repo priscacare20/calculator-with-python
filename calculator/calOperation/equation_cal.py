@@ -108,7 +108,7 @@ class EquOperation:
             try:
                 a = float(input("enter coefficient A"))
                 b = float(input("enter coefficient B"))
-                c = float(input("enter c"))
+                c = float(input("enter C"))
             except ValueError:
                 print("invalid input")
                 continue
