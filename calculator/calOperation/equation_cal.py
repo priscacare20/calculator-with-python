@@ -103,6 +103,8 @@ class EquOperation:
 
     @staticmethod
     def _quadratic_equation():
+        """Calculates quadratic equation given value for A,B and C
+            Returns 2 values for x"""
         print("Ax^2 + Bx + C = 0")
         while True:
             try:
@@ -112,10 +114,12 @@ class EquOperation:
             except ValueError:
                 print("invalid input")
                 continue
+            # check if numerator will be neqative
             if (b**2) >= (4 * a * c):
                 x1 = -b + (math.sqrt(b**2 - (4 * a * c))/(2* a))
                 x2 = -b - (math.sqrt(b**2 - (4 * a * c))/(2 * a))
             else:
+                # generate complex number for result
                 z = math.sqrt((b**2 - (4 * a * c)) * -1)
                 print('z:{}'.format(z))
                 x1 = complex(-b,z)/(2*a)
