@@ -36,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculator/calOperation/arithmetic_cal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+            <state relative-caret-position="917">
+              <caret line="173" column="44" lean-forward="true" selection-start-line="173" selection-start-column="44" selection-end-line="173" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -63,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/calculator/calOperation/equation_cal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="510">
+              <caret line="132" column="23" lean-forward="true" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -301,7 +301,7 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" weight="0.32912722" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015806" side_tool="true" weight="0.32912722" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.49841937" weight="0.33859095" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" sideWeight="0.49841937" visible="true" weight="0.33859095" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,13 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculator/calOperation/arithmetic_cal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
@@ -387,10 +380,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/calculator/calOperation/arithmetic_cal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="917">
+          <caret line="173" column="44" lean-forward="true" selection-start-line="173" selection-start-column="44" selection-end-line="173" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/calculator/calOperation/equation_cal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="510">
+          <caret line="132" column="23" lean-forward="true" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

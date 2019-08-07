@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 import sys
+import math
+import cmath
 
 
 class EquOperation:
@@ -99,8 +101,26 @@ class EquOperation:
             plt.show()
             return y
 
-    def quadratic_equation(self):
-        pass
+    @staticmethod
+    def _quadratic_equation():
+        print("Ax^2 + Bx + C = 0")
+        while True:
+            try:
+                a = float(input("enter coefficient A"))
+                b = float(input("enter coefficient B"))
+                c = float(input("enter c"))
+            except ValueError:
+                print("invalid input")
+                continue
+            if (b**2) >= (4 * a * c):
+                x1 = -b + (math.sqrt(b**2 - (4 * a * c))/(2* a))
+                x2 = -b - (math.sqrt(b**2 - (4 * a * c))/(2 * a))
+            else:
+                z = math.sqrt((b**2 - (4 * a * c)) * -1)
+                print('z:{}'.format(z))
+                x1 = complex(-b,z)/(2*a)
+                x2 = complex(-b,-z)/(2*a)
+            return x1, x2
 
     def cubic_equation(self):
         pass
@@ -113,7 +133,7 @@ class EquOperation:
         if self.linear:
             print(self._linear_equation())
         elif self.quadratic:
-            return self.quadratic_equation()
+            return self._quadratic_equation()
         elif self.cubic:
             return self.cubic_equation()
         else:
